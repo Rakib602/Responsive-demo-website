@@ -76,12 +76,15 @@
     padding-right: 210px;
  }
  .players{
-   background-color: #ffffff;
    border: 15px solid #ffffff;
+   background-color: #ffffff;
    margin-right: 15px;
    margin-bottom:27px ;
-   box-shadow: 10px 5px 30px gray;
-
+   box-shadow: 10px 5px 30px whitesmoke;
+ }
+ .players:hover{
+   transition: transform .5s;
+   transform: scale(1.25);
  }
  /* players image style  */
  .players img{
