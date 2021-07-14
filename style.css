@@ -14,6 +14,7 @@
     height: 677px;
     display: flex;
  }
+ /* header information style  */
  .header-info{
     display: flex;
     flex-direction: column;
@@ -29,6 +30,7 @@
     height: 280px;
     margin-bottom: 27px;
  }
+ /* Watch button style  */
  .watch-btn{
    text-decoration: none;
    border: 2px solid #E02C6D;
@@ -41,12 +43,25 @@
  }
  .fa-arrow-right{
     padding-left: 8px;
+  
  }
+ .button:hover{
+    transition: transfrom .5s; 
+    transform: translate(2px);
+ }
+ .button:hover .fa-arrow-right{
+   transform: translate(10px);
+ }
+ /* header image style  */
  .header-image img{
    width: 558px;
    height: 438px; 
    margin-top: 135px;
    margin-bottom: 114px;
    margin-left: 102px;
+ }
+ .header-image:hover{
+    transition: transform .5s;
+    transform: scale(1.25);
  }
  /* header style end */
