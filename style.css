@@ -34,7 +34,7 @@
  /* Watch button style  */
  .watch-btn{
    text-decoration: none;
-   border: 2px solid #E02C6D;
+   border: 0px solid #E02C6D;
    background-color: #E02C6D;
    color: #ffffff;
    height: 44px;
@@ -107,3 +107,36 @@
     height: 104px;
     margin-top: 0px;
  }
+  /* article section style  */
+  article{
+   display: flex;
+   padding-left: 182px;
+}
+  .article-info{
+     display: flex;
+     flex-direction: column;
+     width: 470px;
+     height: 120px;
+  }
+  .article-info h2{
+     font-size: 48px;
+     margin-bottom: 0px;
+     margin-top: 224px;
+  }
+  .article-info p{
+     font-size: 16px;
+     padding-top: 8px;
+     margin-top: 0px;
+     padding-bottom: 24px;
+     margin-bottom: 0px;
+  }
+ 
+ /* article image style  */
+  .article img{
+      width: 567px;
+      height: 427px;
+      margin-top: 165px;
+      padding-left: 66px;
+      padding-bottom: 760px;
+  }
+  /* article style end  */
