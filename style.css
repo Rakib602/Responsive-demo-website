@@ -13,7 +13,8 @@
     background-color: #2D25A0;
     width: 1440px;
     height: 677px;
-    display: flex;
+    display: grid;
+    grid-template-columns:repeat(2,1fr)
  }
  /* header information style  */
  .header-info{
@@ -125,11 +126,12 @@
      margin-top: 224px;
   }
   .article-info p{
+     text-align: justify;
      font-size: 16px;
      padding-top: 8px;
      margin-top: 0px;
-     padding-bottom: 24px;
-     margin-bottom: 0px;
+     padding-bottom: 0px;
+     margin-bottom: 24px;
   }
  
  /* article image style  */
